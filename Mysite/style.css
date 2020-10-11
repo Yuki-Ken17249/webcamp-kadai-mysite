@@ -168,6 +168,7 @@ main{
     float: left;
 }
 
+
 .feature-title, .feature-text, .feature-item{
     text-align: center;
 }
@@ -195,6 +196,7 @@ main{
 }
 
 .contents{
+    width: 980px;
     margin: 30px 0 90px;
 }
 
@@ -351,6 +353,11 @@ main{
     float: right;
 }
 
+.sns-contents{
+    width: 200px;
+    margin: 0 auto;
+}
+
 .sns h2{
     font-size: 20px;
     margin-bottom: 5px;
@@ -359,6 +366,10 @@ main{
 .sns-icon{
     font-size: 50px;
     margin-right: 20px;
+}
+
+.sns-icon:last-child{
+    margin-right: 0;
 }
 
 footer{
@@ -375,6 +386,14 @@ footer p{
 }
 
 @media screen and (max-width:767px){
+    header{
+        height: 50px;
+    }
+    
+    .logo{
+        height: 50px;
+    }
+    
     .container{
         width: 90%;
     }
@@ -419,7 +438,6 @@ footer p{
     .mv-title{
         font-size: 40px;
         padding-top: 200px;
-        margin-bottom: 10px;
     }
     
     .mv-text{
